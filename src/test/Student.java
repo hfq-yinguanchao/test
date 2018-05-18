@@ -1,12 +1,8 @@
 package test;
 
 public class Student {
-	private Integer pageNum;
+	private Integer pageaaaNum;
 	private Integer pageNum22;
-
-	public Integer getPageNum() {
-		return pageNum;
-	}
 
 	public Integer getPageNum22() {
 		return pageNum22;
@@ -16,13 +12,12 @@ public class Student {
 		this.pageNum22 = pageNum22;
 	}
 
-	public void setPageNum(Integer pageNum) {
-		this.pageNum = pageNum;
+	public Integer getPageaaaNum() {
+		return pageaaaNum;
 	}
 
-	@Override
-	public String toString() {
-		return "Student [pageNum=" + pageNum + "]";
+	public void setPageaaaNum(Integer pageaaaNum) {
+		this.pageaaaNum = pageaaaNum;
 	}
 
 }
